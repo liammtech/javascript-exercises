@@ -4,7 +4,6 @@ const removeFromArray = function(arr, ...items) {
             arr.splice(arr.indexOf(item), 1)
         }
     }
-
     return arr;
 };
 
